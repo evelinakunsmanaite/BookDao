@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/BookDao"/>
+<Context path="/BookDao">
+      <Resource auth="Container"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            name="jdbc/book"
+            password="evelina2002"
+            type="javax.sql.DataSource"
+            url="jdbc:mysql://127.0.0.1:3306/book"
+            username="root">
+  </Resource>
+  </Context>

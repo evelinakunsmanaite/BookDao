@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* Добавьте относительное позиционирование для body */
+}
+
+img.wave {
+    position: absolute;
+    right: 0; /* Измените на 0, чтобы картинка была справа */
+    width: 50%; /* Измените на нужную вам ширину */
+    height: 100vh; /* Растяните изображение на всю высоту */
+    object-fit: cover; /* Обеспечьте правильное масштабирование изображения */
+}
+
+.signin-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Измените на left для выравнивания содержимого по левому краю */
+    padding: 20rem;
+    max-width: 80%; /* Добавьте максимальную ширину, чтобы ограничить ширину содержимого */
+    margin-right: auto; /* Чтобы выровнять блок по правому краю */
+}
+
+                .nav-menu {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 1rem;
+                }
+
+                .nav-menu li {
+                    margin-bottom: 1rem;
+                }
+
+                .nav-menu a {
+                    text-decoration: none;
+                    color: #A64B00;
+                    font-size: 1.2rem;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .nav-menu i {
+                    margin-right: 0.5rem;
+                }
+
+                form {
+                    margin-top: 2rem;
+                }
+
+                form input {
+                    display: block;
+                    width: 100%;
+                    padding: 0.5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: #B75D49;
+                    color: #FFB273;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                }
+
+                form input:hover {
+                    background-color: #C27364;
+                }
+                
+
